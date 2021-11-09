@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {easy-config = {Path = "."}, test = {Path = "test"}}
+
+[Workspace]
+StartupProject = "easy-config"
