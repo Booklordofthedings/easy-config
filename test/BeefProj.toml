@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", easy-config = "*"}
+
+[Project]
+Name = "test"
+StartupObject = "test.Program"

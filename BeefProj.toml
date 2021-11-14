@@ -4,3 +4,6 @@ FileVersion = 1
 Name = "easy-config"
 TargetType = "BeefLib"
 StartupObject = "easy_config.Program"
+
+[Platform.Windows]
+ProductVersion = "1"
