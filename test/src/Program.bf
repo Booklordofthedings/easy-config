@@ -9,7 +9,7 @@ namespace test
 			System.Console.WriteLine(test.GetValueAsInt("test_int",7));
 			System.Console.WriteLine(test.GetValueAsBool("test_bool",true));
 			System.Console.WriteLine(test.GetValueAsDouble("test_double",7));
-			System.Console.WriteLine(test.GetValueAsString("test_int","value"));
+			System.Console.WriteLine(test.GetValueAsString("test_string","va"));
 			//test.WriteConfig();
 			System.Console.Read();
 		}

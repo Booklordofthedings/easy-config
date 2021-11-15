@@ -17,3 +17,7 @@ GetValueAsBool	*Read a value as bool*
 GetValueAsInt	*Read a value as int*
 GetValueAsDouble	*Read a value as double*
 AddValue	*Add a value to the opened config, can also override a value if it already exists*
+
+## File syntax
+key:value\n
+key2:value2

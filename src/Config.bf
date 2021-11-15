@@ -65,8 +65,7 @@ namespace easy_config
 				if(e.HasMore == false)
 					offset = 1;
 
-				StringView value = .(s,index+1,s.Length - key.Length - 2);
-
+				StringView value = .(s,index+1,s.Length - key.Length - 1);
 				_Settings.Add(new String(key),new String(value));
 			}
 		}
